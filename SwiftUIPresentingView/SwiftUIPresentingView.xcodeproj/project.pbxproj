@@ -20,6 +20,8 @@
 		23EB20F324220322006288C0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20F224220322006288C0 /* Restaurant.swift */; };
 		23EB20F524220358006288C0 /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20F424220358006288C0 /* RestaurantRow.swift */; };
 		23EB20F72422068F006288C0 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20F62422068F006288C0 /* RestaurantView.swift */; };
+		23EB20F924220A93006288C0 /* ShowSheetViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20F824220A93006288C0 /* ShowSheetViewTest.swift */; };
+		23EB20FB24220B53006288C0 /* SheetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20FA24220B53006288C0 /* SheetDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		23EB20F224220322006288C0 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		23EB20F424220358006288C0 /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
 		23EB20F62422068F006288C0 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		23EB20F824220A93006288C0 /* ShowSheetViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSheetViewTest.swift; sourceTree = "<group>"; };
+		23EB20FA24220B53006288C0 /* SheetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				23EB20F224220322006288C0 /* Restaurant.swift */,
 				23EB20F424220358006288C0 /* RestaurantRow.swift */,
 				23EB20F62422068F006288C0 /* RestaurantView.swift */,
+				23EB20F824220A93006288C0 /* ShowSheetViewTest.swift */,
+				23EB20FA24220B53006288C0 /* SheetDetailView.swift */,
 			);
 			path = SwiftUIPresentingView;
 			sourceTree = "<group>";
@@ -285,11 +291,13 @@
 				23EB20EF2421E96E006288C0 /* PushNewViewInNavi.swift in Sources */,
 				23EB20BF2421E8A3006288C0 /* AppDelegate.swift in Sources */,
 				23EB20F324220322006288C0 /* Restaurant.swift in Sources */,
+				23EB20F924220A93006288C0 /* ShowSheetViewTest.swift in Sources */,
 				23EB20F72422068F006288C0 /* RestaurantView.swift in Sources */,
 				23EB20C12421E8A3006288C0 /* SceneDelegate.swift in Sources */,
 				23EB20F1242202B1006288C0 /* GoNewViewWhenListRowTap.swift in Sources */,
 				23EB20F524220358006288C0 /* RestaurantRow.swift in Sources */,
 				23EB20C32421E8A3006288C0 /* ContentView.swift in Sources */,
+				23EB20FB24220B53006288C0 /* SheetDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
