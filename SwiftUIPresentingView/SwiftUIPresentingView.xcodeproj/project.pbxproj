@@ -16,6 +16,10 @@
 		23EB20D62421E8A7006288C0 /* SwiftUIPresentingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20D52421E8A7006288C0 /* SwiftUIPresentingViewTests.swift */; };
 		23EB20E12421E8A7006288C0 /* SwiftUIPresentingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20E02421E8A7006288C0 /* SwiftUIPresentingViewUITests.swift */; };
 		23EB20EF2421E96E006288C0 /* PushNewViewInNavi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20EE2421E96E006288C0 /* PushNewViewInNavi.swift */; };
+		23EB20F1242202B1006288C0 /* GoNewViewWhenListRowTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20F0242202B1006288C0 /* GoNewViewWhenListRowTap.swift */; };
+		23EB20F324220322006288C0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20F224220322006288C0 /* Restaurant.swift */; };
+		23EB20F524220358006288C0 /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20F424220358006288C0 /* RestaurantRow.swift */; };
+		23EB20F72422068F006288C0 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20F62422068F006288C0 /* RestaurantView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		23EB20E02421E8A7006288C0 /* SwiftUIPresentingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPresentingViewUITests.swift; sourceTree = "<group>"; };
 		23EB20E22421E8A7006288C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23EB20EE2421E96E006288C0 /* PushNewViewInNavi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNewViewInNavi.swift; sourceTree = "<group>"; };
+		23EB20F0242202B1006288C0 /* GoNewViewWhenListRowTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoNewViewWhenListRowTap.swift; sourceTree = "<group>"; };
+		23EB20F224220322006288C0 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		23EB20F424220358006288C0 /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
+		23EB20F62422068F006288C0 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				23EB20CC2421E8A7006288C0 /* Info.plist */,
 				23EB20C62421E8A7006288C0 /* Preview Content */,
 				23EB20EE2421E96E006288C0 /* PushNewViewInNavi.swift */,
+				23EB20F0242202B1006288C0 /* GoNewViewWhenListRowTap.swift */,
+				23EB20F224220322006288C0 /* Restaurant.swift */,
+				23EB20F424220358006288C0 /* RestaurantRow.swift */,
+				23EB20F62422068F006288C0 /* RestaurantView.swift */,
 			);
 			path = SwiftUIPresentingView;
 			sourceTree = "<group>";
@@ -272,7 +284,11 @@
 			files = (
 				23EB20EF2421E96E006288C0 /* PushNewViewInNavi.swift in Sources */,
 				23EB20BF2421E8A3006288C0 /* AppDelegate.swift in Sources */,
+				23EB20F324220322006288C0 /* Restaurant.swift in Sources */,
+				23EB20F72422068F006288C0 /* RestaurantView.swift in Sources */,
 				23EB20C12421E8A3006288C0 /* SceneDelegate.swift in Sources */,
+				23EB20F1242202B1006288C0 /* GoNewViewWhenListRowTap.swift in Sources */,
+				23EB20F524220358006288C0 /* RestaurantRow.swift in Sources */,
 				23EB20C32421E8A3006288C0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

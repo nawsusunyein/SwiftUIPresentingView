@@ -9,12 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Push new view in Navi"]
+    let componentsList = ["Push new view in Navi","Go new view when list row tapping"]
     var body: some View {
         NavigationView{
             List{
-            NavigationLink(destination:PushNewViewInNavi()){
+                NavigationLink(destination:PushNewViewInNavi()){
                     Text(componentsList[0])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:GoNewViewWhenListRowTap()){
+                    Text(componentsList[1])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
