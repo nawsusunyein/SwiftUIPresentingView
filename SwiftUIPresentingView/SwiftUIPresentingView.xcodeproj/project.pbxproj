@@ -15,6 +15,7 @@
 		23EB20CB2421E8A7006288C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EB20C92421E8A7006288C0 /* LaunchScreen.storyboard */; };
 		23EB20D62421E8A7006288C0 /* SwiftUIPresentingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20D52421E8A7006288C0 /* SwiftUIPresentingViewTests.swift */; };
 		23EB20E12421E8A7006288C0 /* SwiftUIPresentingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20E02421E8A7006288C0 /* SwiftUIPresentingViewUITests.swift */; };
+		23EB20EF2421E96E006288C0 /* PushNewViewInNavi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20EE2421E96E006288C0 /* PushNewViewInNavi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		23EB20DC2421E8A7006288C0 /* SwiftUIPresentingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPresentingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EB20E02421E8A7006288C0 /* SwiftUIPresentingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPresentingViewUITests.swift; sourceTree = "<group>"; };
 		23EB20E22421E8A7006288C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EB20EE2421E96E006288C0 /* PushNewViewInNavi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNewViewInNavi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				23EB20C92421E8A7006288C0 /* LaunchScreen.storyboard */,
 				23EB20CC2421E8A7006288C0 /* Info.plist */,
 				23EB20C62421E8A7006288C0 /* Preview Content */,
+				23EB20EE2421E96E006288C0 /* PushNewViewInNavi.swift */,
 			);
 			path = SwiftUIPresentingView;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EB20EF2421E96E006288C0 /* PushNewViewInNavi.swift in Sources */,
 				23EB20BF2421E8A3006288C0 /* AppDelegate.swift in Sources */,
 				23EB20C12421E8A3006288C0 /* SceneDelegate.swift in Sources */,
 				23EB20C32421E8A3006288C0 /* ContentView.swift in Sources */,
