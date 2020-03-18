@@ -9,13 +9,12 @@
 import SwiftUI
 
 struct SheetDetailView: View {
+    
+    @Binding var isPresented : Bool
+    
     var body: some View {
-        Text("Sheet detail view")
+        self.isPresented = false
+        return Text("Sheet Detail")
     }
 }
 
-struct SheetDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        SheetDetailView()
-    }
-}
